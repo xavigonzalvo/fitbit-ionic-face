@@ -1,0 +1,27 @@
+{
+  "fitbit": {
+    "appUUID": "cb7cabf6-8d05-4c80-a895-d077aa2c92dc",
+    "appType": "clockface",
+    "appDisplayName": "Simple stats",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Simple stats"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

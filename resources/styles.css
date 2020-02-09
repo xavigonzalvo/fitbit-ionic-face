@@ -1,0 +1,69 @@
+.background {
+  viewport-fill: black;
+}
+
+.batteryIcon {
+  x: 90%;
+  y: 10;
+  width: 8%;
+  height: 8%;
+}
+
+#batteryLabel {
+  font-size: 17;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: end;
+  x: 100%-38;
+  y: 27;
+  fill: white;
+}
+
+.hide {
+  display: none;
+}
+
+.statIcon {
+  width: 6%;
+  height: 7%;
+}
+
+.barcelonaIcon {
+  width: 11%;
+  height: 11%;
+}
+
+.californiaIcon {
+  width: 9%;
+  height: 11%;
+}
+
+.date {
+  font-size: 20;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  fill: white;
+}
+
+.stat {
+  font-size: 18;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: start;
+  fill: white;
+}
+
+.timeLabel {
+  font-size: 80;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: start;
+  fill: white;
+}
+
+.hourLabel {
+  font-family: System-Bold;
+  text-anchor: end;
+  fill: grey;
+}

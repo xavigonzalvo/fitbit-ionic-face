@@ -1,0 +1,26 @@
+<svg class="background">
+  <!--  Battery  -->
+  <image id="batteryFullIcon" class="batteryIcon hide" href="images/battery_full.png" />
+  <image id="battery75Icon" class="batteryIcon hide" href="images/battery_75.png" />
+  <image id="battery50Icon" class="batteryIcon hide" href="images/battery_50.png" />
+  <image id="battery25Icon" class="batteryIcon hide" href="images/battery_25.png" />
+  <text class="hide" id="batteryLabel" />
+
+  <text class="date" x="50%" y="20%+20" id="dateLabel" />
+  
+  <!--  Time  -->
+  <text class="timeLabel hourLabel" x="50%-5" y="50%+20" id="hourLabel" />
+  <text class="timeLabel" x="50%-5" y="50%+20" id="minLabel" />
+  <line x1="10" y1="50%+20+20" x2="100%-10" y2="50%+20+20" fill="white" stroke-width="2" />
+  
+  <!-- World clock  -->
+  <image x="90" y="50%+30+20" id="barcelonaIcon" class="barcelonaIcon" href="images/sagrada-familia.png" />
+  <text class="stat" x="122" y="50%+52+20" id="barcelonaLabel" />
+  
+  <image x="180" y="50%+33+20" id="californiaIcon" class="californiaIcon" href="images/california.png" />
+  <text class="stat" x="214" y="50%+52+20" id="californiaLabel" />
+  
+  <!--  Stats  -->
+  <image x="50%-30" y="50%+70+20" id="caloriesIcon" class="statIcon" href="images/calories.png" />
+  <text class="stat" x="50%-8" y="50%+84+20" id="caloriesLabel" />
+</svg>
