@@ -8,4 +8,8 @@ There are three icons that need attribution:
 - Barcelona icon: "Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](www.flaticon.com)"
 - Calories icon: "Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](www.flaticon.com)"
 
-<center><img src="Simple-stats-screenshot.png" width="70%"></center>
+<center><img src="Simple-stats-screenshot.png"></center>
+
+## TODO
+
+- Use a real time zone approach for the world clock.
