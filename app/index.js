@@ -111,7 +111,7 @@ clock.ontick = (evt) => {
   
   // World clock.
   let bcnHour = hours + 6;
-  if (bcnHour > 24) {
+  if (bcnHour >= 24) {
     bcnHour = bcnHour - 24;
   }
   barcelonaLabel.text = `${bcnHour}:${formatted_mins}`;
